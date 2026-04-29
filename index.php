@@ -121,6 +121,7 @@ $business_name = "SolarVillage";
         }
     </style> -->
         <link rel="stylesheet" href="css/style.css">    
+        <link rel="prefetch" href="pages/quote.php"
 </head>
 
 <body>
@@ -129,11 +130,12 @@ $business_name = "SolarVillage";
 <header>
     <h1><?php echo $business_name; ?></h1>
     <nav>
-        <a href="#">Home</a>
-        <a href="#">Services</a>
-        <a href="#">About</a>
-        <a href="#">Financing</a>
-        <a href="#" class="btn">Get Quote</a>
+        <a href="index.php">Home</a>
+        <a href="pages/services.php">Services</a>
+        <a href="pages/about.php">About</a>
+        <a href="pages/financing.php">Financing</a>
+        <a href="pages/quote.php">Get Quote </a>
+
     </nav>
 </header>
 
@@ -141,7 +143,7 @@ $business_name = "SolarVillage";
 <section class="hero">
     <h2>Cut Your Electricity Bills with Solar Energy</h2>
     <p>Affordable and reliable solar solutions for homes and businesses</p>
-    <a href="#quote" class="btn">Get a Free Quote</a>
+    <a href="pages/quote.php" class="btn">Get a Free Quote</a>
 </section>
 
 <!-- Services -->
@@ -176,7 +178,7 @@ $business_name = "SolarVillage";
     <p>✔ Trusted & certified professionals</p>
 </section>
 
-<!-- Quote Form -->
+<!-- Quote Form
 <section class="cta" id="quote">
     <h2>Get Your Free Solar Quote</h2>
 
@@ -194,7 +196,7 @@ $business_name = "SolarVillage";
 
         <button type="submit">Get My Quote</button>
     </form>
-</section>
+</section> -->
 
 <!-- Footer -->
 <footer>
